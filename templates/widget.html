@@ -1,0 +1,10 @@
+{{ args.before_widget|raw }}
+
+{% if title %}
+{{ args.before_title|raw }}{{ title }}{{ args.after_title|raw }}
+{% endif %}
+
+<span class="opening_status_value">Unknown</span>
+<span class="opening_status_message"></span>
+
+{{ args.after_widget|raw }}
