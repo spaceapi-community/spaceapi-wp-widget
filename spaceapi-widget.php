@@ -3,7 +3,7 @@
 Plugin Name: SpaceAPI Widget
 Description: This plugin provides a widget that can display data from a Space API endpoint.
 Author: Written by Coredump hackerspace in Switzerland(https://www.coredump.ch).
-License: GPL version 3 or later.
+License: GPL version 2 or later.
 */
 
 // Load Twig template library

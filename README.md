@@ -6,4 +6,4 @@ You simply need to specify a [Space API](http://spaceapi.net/) endpoint URL.
 
 ## License
 
-Copyright 2015 by Coredump hackerspace. Licensed under the GPL version 3 or later.
+Copyright 2015 by Coredump hackerspace. Licensed under the GPL version 2 or later.
