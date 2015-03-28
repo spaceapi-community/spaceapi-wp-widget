@@ -5,14 +5,18 @@ Description: This plugin provides a widget that can display data from a Space AP
 Author: Written by Coredump hackerspace in Switzerland(https://www.coredump.ch).
 License: GPL version 3 or later.
 */
+
+// Load Twig template library
 require_once 'vendor/Twig/Autoloader.php';
 Twig_Autoloader::register();
 
+// Constants
 define('PLUGIN_ID', 'space_api_widget');
 define('PLUGIN_NAME', 'SpaceAPI Widget');
 define('PLUGIN_DOMAIN', 'coredump.ch');
 define('WIDGET_DESCRIPTION', 'Display data from a Space API endpoint.');
 
+// Widget class
 class SpaceApiWidget extends WP_Widget {
 
     function __construct() {
